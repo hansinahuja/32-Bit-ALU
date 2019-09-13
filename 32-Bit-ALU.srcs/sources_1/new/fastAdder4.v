@@ -42,6 +42,9 @@ module fastAdder4(
     assign #5 C[3] = G[2] | (G[1] & P[2]) | (G[0] & P[1] & P[2]) | (C[0] & P[0] & P[1] & P[2]);
     assign #5 C[4] = G[3] | (G[2] & P[3]) | (G[1] & P[2] & P[3]) | (G[0] & P[1] & P[2] & P[3]) | (C[0] & P[0] & P[1] & P[2] & P[3]);
     
+//    assign Gs = G[3] | (G[2] & P[3]) | (G[1] & P[2] & P[3]) | (G[0] & P[1] & P[2] & P[3]);
+//    assign Ps = P[0] & P[1] & P[2] & P[3];
+    
     generate for(i=0; i<4; i=i+1) begin
        assign #3 S[i] = A[i] ^ B[i] ^ C[i];
     end

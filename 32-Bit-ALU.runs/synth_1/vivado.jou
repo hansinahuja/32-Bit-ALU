@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Sep 13 10:20:38 2019
+# Process ID: 32627
+# Current directory: /home/2018csb1094/32-Bit-ALU/32-Bit-ALU.runs/synth_1
+# Command line: vivado -log fastAdder32.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fastAdder32.tcl
+# Log file: /home/2018csb1094/32-Bit-ALU/32-Bit-ALU.runs/synth_1/fastAdder32.vds
+# Journal file: /home/2018csb1094/32-Bit-ALU/32-Bit-ALU.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source fastAdder32.tcl -notrace
