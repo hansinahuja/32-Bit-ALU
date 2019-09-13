@@ -45,7 +45,7 @@ module fastAdder32(
 //    endgenerate
     generate
     for(i=0;i<8;i=i+1)begin
-        fastAdder4 U(C[i],A[4*i:(4*i+3)],B[4*i:(4*i+3)],S[4*i:4*i+3],C[i+1]); 
+        fastAdder4 U(C[i],A[4*i+3:(4*i)],B[4*i+3:(4*i)],S[4*i+3:4*i],C[i+1]); 
     end
     endgenerate
     
