@@ -21,35 +21,35 @@
 
 
 module fastAdder4(
+        input [3:0] G, P,
         input Cin,
-        input [3:0] A, B,
-        output [3:0] S,
-        output Cout
+        output [3:0] S
     );
     
-    wire [3:0] G, P;
-    wire [4:0] C;
+//    wire [3:0] G, P;
+    wire [3:0] C;
     assign C[0] = Cin;
-    genvar i;
-    generate for(i=0; i<4; i=i+1) begin
-       assign #3 G[i] = A[i] & B[i];
-       assign #2 P[i] = A[i] | B[i];
-    end
-    endgenerate
+//    assign C[0] = Cin;
+//    genvar i;
+//    generate for(i=0; i<4; i=i+1) begin
+//       assign #3 G[i] = A[i] & B[i];
+//       assign #2 P[i] = A[i] | B[i];
+//    end
+//    endgenerate
     
     assign #5 C[1] = G[0] | (C[0] & P[0]);
     assign #5 C[2] = G[1] | (G[0] & P[1]) | (C[0] & P[0] & P[1]);
     assign #5 C[3] = G[2] | (G[1] & P[2]) | (G[0] & P[1] & P[2]) | (C[0] & P[0] & P[1] & P[2]);
-    assign #5 C[4] = G[3] | (G[2] & P[3]) | (G[1] & P[2] & P[3]) | (G[0] & P[1] & P[2] & P[3]) | (C[0] & P[0] & P[1] & P[2] & P[3]);
+//    assign #5 C[4] = G[3] | (G[2] & P[3]) | (G[1] & P[2] & P[3]) | (G[0] & P[1] & P[2] & P[3]) | (C[0] & P[0] & P[1] & P[2] & P[3]);
     
 //    assign Gs = G[3] | (G[2] & P[3]) | (G[1] & P[2] & P[3]) | (G[0] & P[1] & P[2] & P[3]);
 //    assign Ps = P[0] & P[1] & P[2] & P[3];
     
-    generate for(i=0; i<4; i=i+1) begin
-       assign #3 S[i] = A[i] ^ B[i] ^ C[i];
+    generate for(genvar i=0; i<4; i=i+1) begin
+       assign #3 S[i] = P[i] ^ C[i];
     end
     endgenerate
     
-    assign Cout = C[4];
+//    assign Cout = C[4];
     
 endmodule

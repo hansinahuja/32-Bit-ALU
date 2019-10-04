@@ -7,6 +7,7 @@ Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.GenProp
 Compiling module xil_defaultlib.fastAdder4
 Compiling module xil_defaultlib.fastAdder32_default
 Compiling module xil_defaultlib.testbench

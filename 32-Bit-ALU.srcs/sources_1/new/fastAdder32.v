@@ -26,29 +26,14 @@ module fastAdder32(
         output [31:0] S,
         output Cout
     );
-    genvar i;
-    
-    wire [8:0] C;
-    wire [7:0] Gs,Ps;
-    assign C[0]=Cin;
-//    generate
-//    for(i=0;i<8;i=i+1)begin
-//    fastAdder4 U(C[i],
-//                A[4*i:(4*i+3)],
-//                B[4*i:(4*i+3)],
-//                S[4*i:(4*i+3)],
-//                C[i+1],
-//                Gs[i],
-//                Ps[i]
-//                );
-//    end
-//    endgenerate
-    generate
-    for(i=0;i<8;i=i+1)begin
-        fastAdder4 U(C[i],A[4*i+3:(4*i)],B[4*i+3:(4*i)],S[4*i+3:4*i],C[i+1]); 
+    wire [31:0] G, P;
+    wire [8:0] Cg;
+    GenProp GP(A, B, Cin, G, P, Cg);
+    generate for(genvar i=0; i<8; i=i+1) begin
+        fastAdder4 f4(G[4*i+3 : 4*i], P[4*i+3 : 4*i], Cg[i], S[4*i+3 : 4*i]);
     end
     endgenerate
     
-    assign Cout=C[8];
+    assign Cout = Cg[8];
     
 endmodule

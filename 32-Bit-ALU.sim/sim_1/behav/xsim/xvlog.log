@@ -1,6 +1,8 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder32.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/GenProp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GenProp
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder32.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module fastAdder32
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder4.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder4.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module fastAdder4
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module testbench
