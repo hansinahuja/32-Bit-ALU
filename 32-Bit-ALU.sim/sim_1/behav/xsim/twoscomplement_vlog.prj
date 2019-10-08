@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../32-Bit-ALU.srcs/sources_1/new/GenProp.v" \
+"../../../../32-Bit-ALU.srcs/sources_1/new/fastAdder32.v" \
+"../../../../32-Bit-ALU.srcs/sources_1/new/fastAdder4.v" \
+"../../../../32-Bit-ALU.srcs/sources_1/new/twoscomplement.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

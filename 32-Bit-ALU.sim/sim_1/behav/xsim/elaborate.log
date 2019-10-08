@@ -10,6 +10,9 @@ Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.GenProp
 Compiling module xil_defaultlib.fastAdder4
 Compiling module xil_defaultlib.fastAdder32_default
+Compiling module xil_defaultlib.twoscomplement
+Compiling module xil_defaultlib.subtractor32
+Compiling module xil_defaultlib.equalTo
 Compiling module xil_defaultlib.testbench
 Compiling module xil_defaultlib.glbl
 Built simulation snapshot testbench_behav

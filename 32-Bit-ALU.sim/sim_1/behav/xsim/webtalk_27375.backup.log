@@ -2,14 +2,13 @@
 # Webtalk v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Fri Sep 13 10:46:58 2019
-# Process ID: 6015
+# Start of session at: Tue Oct  8 18:36:47 2019
+# Process ID: 27375
 # Current directory: /home/2018csb1094/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim
 # Command line: wbtcv -mode batch -source /home/2018csb1094/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim/xsim.dir/testbench_behav/webtalk/xsim_webtalk.tcl -notrace
 # Log file: /home/2018csb1094/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim/webtalk.log
 # Journal file: /home/2018csb1094/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim/webtalk.jou
 #-----------------------------------------------------------
 source /home/2018csb1094/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim/xsim.dir/testbench_behav/webtalk/xsim_webtalk.tcl -notrace
-INFO: [Common 17-186] '/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim/xsim.dir/testbench_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Fri Sep 13 10:47:03 2019. For additional details about this file, please refer to the WebTalk help file at /home/neeraj/eda/Vivado/2019.1/doc/webtalk_introduction.html.
-webtalk_transmit: Time (s): cpu = 00:00:00.70 ; elapsed = 00:00:05 . Memory (MB): peak = 393.770 ; gain = 0.000 ; free physical = 1203 ; free virtual = 10945
-INFO: [Common 17-206] Exiting Webtalk at Fri Sep 13 10:47:03 2019...
+INFO: [Common 17-186] '/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim/xsim.dir/testbench_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue Oct  8 18:36:51 2019. For additional details about this file, please refer to the WebTalk help file at /home/neeraj/eda/Vivado/2019.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue Oct  8 18:36:51 2019...

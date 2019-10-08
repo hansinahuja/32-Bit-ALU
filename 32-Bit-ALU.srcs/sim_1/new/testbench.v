@@ -25,21 +25,25 @@ module testbench(
     );
     reg [31:0] A,B;
     reg Cin;
+    
     wire [31:0] S;
     wire Cout;
-    fastAdder32 unit(Cin,A,B,S,Cout);
+//    twoscomplement unit(A,S);
+//assign S=1'b1 & 8'b01100111;
+//    logicalRightShift unit(A,S);
+    equalTo unit(A, B, Cout);
     initial begin
     
-    A = 50;
-    B=4500;
+    A = 56;
+    B=56;
     Cin=0;
     #200
-    $display("A=%d B=%d  S=%d",A,B,S);
-    A=500;
-    B=8000;
+    $display("A=%d B=%d  S=%d Cout= %b",A,B,S,Cout);
+    A=52;
+    B=89;
     Cin=0;
     #200
-    $display("A=%d B=%d  S=%d",A,B,S);
+    $display("A=%d B=%d  S=%d Cout =%b",A,B,S,Cout);
     
     end
     

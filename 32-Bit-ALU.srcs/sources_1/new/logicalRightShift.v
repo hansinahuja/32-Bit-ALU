@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 04.10.2019 09:24:28
+// Create Date: 08.10.2019 19:35:03
 // Design Name: 
-// Module Name: groupCarry
+// Module Name: logicalRightShift
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,10 +20,14 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module groupCarry(
-    input [31:0] A,
-    input [31:0] B,
-    input C0,
-    output Cout
+module logicalRightShift(
+    input [31:0]A,
+    output [31:0]B
     );
+    
+    assign B[31] = 0;
+    generate for(genvar i=0; i<31; i=i+1) begin
+        assign B[i] = A[i+1];
+    end
+    endgenerate
 endmodule
