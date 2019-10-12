@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 08.10.2019 18:28:47
+// Create Date: 12.10.2019 14:24:06
 // Design Name: 
-// Module Name: twoscomplement
+// Module Name: bitwiseAND
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,15 +20,14 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module twoscomplement(
-    input [31:0]A,
-    output [31:0]B
+module bitwiseAND(
+    input [31:0] A, B,
+    output [31:0] S
     );
-    wire [31:0] Acomp;
-    bitwiseNOT U1(A, Acomp);
-//    assign #3 Acomp=~A;
-    wire [31:0]addum;
-    assign addum=32'b1;
-    wire cout;
-    fastAdder32 unit(1'b0,Acomp,addum,B,cout);
+    
+    generate for(genvar i=0; i<32; i=i+1) begin
+        assign #3 S[i] = A[i] & B[i];
+    end
+    endgenerate
+    
 endmodule

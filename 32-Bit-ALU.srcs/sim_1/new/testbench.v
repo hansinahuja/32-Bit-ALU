@@ -31,16 +31,16 @@ module testbench(
 //    twoscomplement unit(A,S);
 //assign S=1'b1 & 8'b01100111;
 //    logicalRightShift unit(A,S);
-    equalTo unit(A, B, Cout);
+    multiplier32 unit(A, B, S, Cout);
     initial begin
     
-    A = 56;
-    B=56;
+    A = 10;
+    B=20;
     Cin=0;
     #200
     $display("A=%d B=%d  S=%d Cout= %b",A,B,S,Cout);
-    A=52;
-    B=89;
+    A=8000;
+    B=500;
     Cin=0;
     #200
     $display("A=%d B=%d  S=%d Cout =%b",A,B,S,Cout);

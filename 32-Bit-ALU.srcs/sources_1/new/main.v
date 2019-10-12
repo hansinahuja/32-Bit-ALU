@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 08.10.2019 18:28:47
+// Create Date: 12.10.2019 15:42:31
 // Design Name: 
-// Module Name: twoscomplement
+// Module Name: main
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,15 +20,13 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module twoscomplement(
-    input [31:0]A,
-    output [31:0]B
+module main(
+    input [31:0] A, B,
+    input [3:0] control,
+    output [31:0] S,
+    output carry, overflow, lessthan, equalto
     );
-    wire [31:0] Acomp;
-    bitwiseNOT U1(A, Acomp);
-//    assign #3 Acomp=~A;
-    wire [31:0]addum;
-    assign addum=32'b1;
-    wire cout;
-    fastAdder32 unit(1'b0,Acomp,addum,B,cout);
+    
+    
+    
 endmodule

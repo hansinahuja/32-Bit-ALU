@@ -28,17 +28,25 @@ module subtractor32(
        
     );
         wire [31:0] Bcomp;
-        assign #3 Bcomp=~B;
+        bitwiseNOT D1(B, Bcomp);
+//        assign #3 Bcomp=~B;
         wire [31:0]Sin,Scomp;
         fastAdder32 unit(1'b1,A,Bcomp,Sin,Cout);
         twoscomplement U(Sin,Scomp);
         wire [31:0]Ctest;
         generate for(genvar i=0;i<32;i=i+1)begin
-        assign Ctest[i]=Cout;
+            assign Ctest[i]=Cout;
         end
         endgenerate
         
-        assign #6 S= (~Ctest)&Scomp | (Ctest)&Sin;
+        wire [31:0] o1, o2, o3;
+        
+        bitwiseNOT U1(Ctest, o1);
+        bitwiseAND U2(o1, Scomp, o2);
+        bitwiseAND U3(Ctest, Sin, o3);
+        bitwiseOR U4(o2, o3, S);
+        
+//        assign #6 S= (~Ctest)&Scomp | (Ctest)&Sin;
 //        initial begin
 //        #500
 //        $display("A= %b  B=%b S=%b",(~Ctest&Scomp),(Ctest)&Sin, S );
