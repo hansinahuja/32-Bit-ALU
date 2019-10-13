@@ -2,11 +2,11 @@
 # Webtalk v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Sat Oct 12 14:28:19 2019
-# Process ID: 24258
-# Current directory: /home/2018csb1094/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim
-# Command line: wbtcv -mode batch -source /home/2018csb1094/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim/xsim.dir/testbench_behav/webtalk/xsim_webtalk.tcl -notrace
-# Log file: /home/2018csb1094/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim/webtalk.log
-# Journal file: /home/2018csb1094/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim/webtalk.jou
+# Start of session at: Sun Oct 13 15:19:04 2019
+# Process ID: 31086
+# Current directory: /home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim/xsim.dir/testbench_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim/webtalk.jou
 #-----------------------------------------------------------
-source /home/2018csb1094/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim/xsim.dir/testbench_behav/webtalk/xsim_webtalk.tcl -notrace
+source /home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim/xsim.dir/testbench_behav/webtalk/xsim_webtalk.tcl -notrace

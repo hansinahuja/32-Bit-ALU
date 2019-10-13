@@ -2,19 +2,6 @@
 2019.1
 May 24 2019
 14:51:52
-/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
-/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v,1570874252,verilog,,,,testbench,,,,,,,,
-/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/GenProp.v,1570539039,verilog,,/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder32.v,,GenProp,,,,,,,,
-/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/bitwiseAND.v,1570870517,verilog,,/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/bitwiseNOT.v,,bitwiseAND,,,,,,,,
-/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/bitwiseNOT.v,1570870859,verilog,,/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/bitwiseOR.v,,bitwiseNOT,,,,,,,,
-/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/bitwiseOR.v,1570870676,verilog,,/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder32.v,,bitwiseOR,,,,,,,,
-/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/equalTo.v,1570544722,verilog,,/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder32.v,,equalTo,,,,,,,,
-/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder32.v,1570539039,verilog,,/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder4.v,,fastAdder32,,,,,,,,
-/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder4.v,1570539039,verilog,,/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/helperAND.v,,fastAdder4,,,,,,,,
-/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/helperAND.v,1570872749,verilog,,/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/logicalLeftShift.v,,helperAND,,,,,,,,
-/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/lessThan.v,1570544208,verilog,,/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/subtractor32.v,,lessThan,,,,,,,,
-/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/logicalLeftShift.v,1570543250,verilog,,/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/multiplier32.v,,logicalLeftShift,,,,,,,,
-/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/logicalRightShift.v,1570543598,verilog,,/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v,,logicalRightShift,,,,,,,,
-/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/multiplier32.v,1570874564,verilog,,/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v,,multiplier32,,,,,,,,
-/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/subtractor32.v,1570871439,verilog,,/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/twoscomplement.v,,subtractor32,,,,,,,,
-/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/twoscomplement.v,1570871520,verilog,,/home/2018csb1094/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v,,twoscomplement,,,,,,,,
+/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim/glbl.v,1569859043,verilog,,,,glbl,,,,,,,,
+/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v,1570960133,verilog,,,,testbench,,,,,,,,
+/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/leftShift.v,1570960558,verilog,,/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v,,leftShift;mux2,,,,,,,,

@@ -1,0 +1,23 @@
+#
+# An unexpected error has occurred (11)
+#
+Stack:
+/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7f013b2384b0]
+/home/neeraj/eda/Vivado/2019.1/lib/lnx64.o/libverific.so(+0x5e4500) [0x7f013c875500]
+/home/neeraj/eda/Vivado/2019.1/lib/lnx64.o/libverific.so(Verific::hdl_file_sort::QuickParseVerilog(char const*)+0x952) [0x7f013c888fe2]
+/home/neeraj/eda/Vivado/2019.1/lib/lnx64.o/libverific.so(Verific::hdl_file_sort::QuickAnalyze(char const*, char const*)+0x79) [0x7f013c892de9]
+/home/neeraj/eda/Vivado/2019.1/lib/lnx64.o/libverific.so(Verific::hdl_file_sort::CreateNode(char const*, char const*)+0x37) [0x7f013c893677]
+/home/neeraj/eda/Vivado/2019.1/lib/lnx64.o/libverific.so(Verific::hdl_file_sort::RegisterFileInternal(char const*, char const*, unsigned int, unsigned int, unsigned int)+0x5a) [0x7f013c894bea]
+srcscanner() [0x49b5b0]
+srcscanner() [0x4a389f]
+srcscanner() [0x4a3a1e]
+srcscanner() [0x45078a]
+srcscanner() [0x47c198]
+/home/neeraj/eda/Vivado/2019.1/lib/lnx64.o/libtcl8.5.so(TclInvokeStringCommand+0x76) [0x7f013d3a9f66]
+/home/neeraj/eda/Vivado/2019.1/lib/lnx64.o/libtcl8.5.so(+0x334af) [0x7f013d3ae4af]
+/home/neeraj/eda/Vivado/2019.1/lib/lnx64.o/libtcl8.5.so(+0x34b38) [0x7f013d3afb38]
+/home/neeraj/eda/Vivado/2019.1/lib/lnx64.o/libtcl8.5.so(Tcl_EvalEx+0x13) [0x7f013d3b00a3]
+/home/neeraj/eda/Vivado/2019.1/lib/lnx64.o/libtcl8.5.so(Tcl_Eval+0x15) [0x7f013d3b00c5]
+srcscanner(main+0x293) [0x43ba33]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf0) [0x7f013b223830]
+srcscanner() [0x43ea57]
