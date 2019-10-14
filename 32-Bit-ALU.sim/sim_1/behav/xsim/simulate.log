@@ -1,4 +1,4 @@
 Vivado Simulator 2019.1
 Time resolution is 1 ps
-A=        10 B=         4  S=       160 Cout= z
-A=         2 B=         5  S=        64 Cout =z
+A=     65536 B=    131072  S=         0 Cout= z
+A=         2 B=         5  S=        10 Cout =z

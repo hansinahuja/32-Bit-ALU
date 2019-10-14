@@ -3,5 +3,6 @@
 May 24 2019
 14:51:52
 /home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim/glbl.v,1569859043,verilog,,,,glbl,,,,,,,,
-/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v,1570960133,verilog,,,,testbench,,,,,,,,
+/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v,1571038171,verilog,,,,testbench,,,,,,,,
 /home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/leftShift.v,1570960558,verilog,,/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v,,leftShift;mux2,,,,,,,,
+/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/multiplier32.v,1571038025,verilog,,/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v,,multiplier32,,,,,,,,

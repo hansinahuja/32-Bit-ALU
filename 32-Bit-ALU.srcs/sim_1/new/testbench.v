@@ -31,12 +31,12 @@ module testbench(
 //    twoscomplement unit(A,S);
 //assign S=1'b1 & 8'b01100111;
 //    logicalRightShift unit(A,S);
-//    multiplier32 unit(A, B, S, Cout);
-    leftShift unit(A,B,S);
+    multiplier32 unit(A, B, S );
+//    leftShift unit(A,5,S);
     initial begin
     
-    A = 10;
-    B=4;
+    A = 65536;
+    B=131072;
     Cin=0;
     #200
     $display("A=%d B=%d  S=%d Cout= %b",A,B,S,Cout);
