@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Oct 13 14:56:29 2019
+# Process ID: 28486
+# Current directory: /home/hello/32-Bit-ALU
+# Command line: vivado
+# Log file: /home/hello/32-Bit-ALU/vivado.log
+# Journal file: /home/hello/32-Bit-ALU/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/hello/32-Bit-ALU/32-Bit-ALU.xpr
+update_compile_order -fileset sources_1
+close [ open /home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/leftShift.v w ]
+add_files /home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/leftShift.v
+update_compile_order -fileset sources_1
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl
+add_bp {/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/leftShift.v} 42
+remove_bps -file {/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/leftShift.v} -line 42
+close_sim
+launch_simulation
+source testbench.tcl
+close_sim

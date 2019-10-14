@@ -3,10 +3,12 @@
 May 24 2019
 14:51:52
 /home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim/glbl.v,1569859043,verilog,,,,glbl,,,,,,,,
-/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v,1571077274,verilog,,,,testbench,,,,,,,,
+/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v,1571078612,verilog,,,,testbench,,,,,,,,
 /home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/GenProp.v,1570165290,verilog,,/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder32.v,,GenProp,,,,,,,,
+/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/ariRightShift.v,1571078108,verilog,,/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/mux2.v,,ariRightShift,,,,,,,,
 /home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder32.v,1570165345,verilog,,/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder4.v,,fastAdder32,,,,,,,,
 /home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder4.v,1570165023,verilog,,/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/leftShift.v,,fastAdder4,,,,,,,,
+/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/leftShift.v,1571076841,verilog,,/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/multiplier32.v,,leftShift,,,,,,,,
 /home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/multiplier32.v,1571076557,verilog,,/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/mux2.v,,multiplier32,,,,,,,,
-/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/mux2.v,1571076863,verilog,,/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/rightShift.v,,mux2,,,,,,,,
+/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/mux2.v,1571076863,verilog,,/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v,,mux2,,,,,,,,
 /home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/rightShift.v,1571077126,verilog,,/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v,,rightShift,,,,,,,,

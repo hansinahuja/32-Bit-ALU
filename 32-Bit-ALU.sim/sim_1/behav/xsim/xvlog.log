@@ -1,6 +1,15 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/GenProp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GenProp
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fastAdder32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fastAdder4
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/leftShift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module leftShift
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/multiplier32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier32
 INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/mux2.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module mux2
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/rightShift.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module rightShift
 INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module testbench
+WARNING: [VRFC 10-2581] 2147483648 as 32-bit signed integer overflows, using -2147483648 instead [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v:38]

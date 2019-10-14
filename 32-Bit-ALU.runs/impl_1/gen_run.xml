@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1571079136">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-DRC" Name="lessThan.drc"/>
+  <File Type="BG-BGN" Name="lessThan.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="lessThan.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="lessThan.ltx"/>
+  <File Type="BITSTR-MMI" Name="lessThan.mmi"/>
+  <File Type="BITSTR-BMM" Name="lessThan_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="lessThan.nky"/>
+  <File Type="BITSTR-RBT" Name="lessThan.rbt"/>
+  <File Type="BITSTR-MSK" Name="lessThan.msk"/>
+  <File Type="BG-BIN" Name="lessThan.bin"/>
+  <File Type="BG-BIT" Name="lessThan.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="lessThan_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="lessThan_bus_skew_postroute_physopted.pb"/>
+  <File Type="RDI-RDI" Name="lessThan.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="lessThan_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="lessThan_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="lessThan_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="lessThan_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="lessThan_postroute_physopt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW" Name="lessThan_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="lessThan_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="lessThan_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="lessThan_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="lessThan_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="lessThan_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="lessThan_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="lessThan_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="lessThan_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="lessThan_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="lessThan_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="lessThan_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="lessThan_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="lessThan_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="lessThan_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="lessThan_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="lessThan_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="lessThan_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="lessThan_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="lessThan_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="lessThan_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="lessThan_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="lessThan_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="lessThan_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="lessThan_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="lessThan_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="lessThan_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="lessThan_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="lessThan_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="lessThan_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="lessThan_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="lessThan_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="lessThan_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="lessThan_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="lessThan_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="lessThan_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="lessThan_pwropt.dcp"/>
+  <File Type="OPT-TIMING" Name="lessThan_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="lessThan.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="lessThan_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="lessThan_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="lessThan_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="lessThan_timing_summary_init.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="lessThan_bus_skew_routed.rpx"/>
+  <File Type="REPORTS-TCL" Name="lessThan_reports.tcl"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="lessThan_bus_skew_routed.pb"/>
+  <File Type="PA-TCL" Name="lessThan.tcl"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="lessThan_bus_skew_postroute_physopted.rpt"/>
+  <File Type="PA-DCP" Name="lessThan.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/GenProp.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/bitwiseAND.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/bitwiseNOT.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/bitwiseOR.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fastAdder32.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fastAdder4.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/subtractor32.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/twoscomplement.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/lessThan.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/logicalLeftShift.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/logicalRightShift.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/arithmeticRightShift.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/equalTo.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/bitwiseXOR.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/multiplier32.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/helperAND.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/main.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/leftShift.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/rightShift.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux2.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ariRightShift.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="lessThan"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

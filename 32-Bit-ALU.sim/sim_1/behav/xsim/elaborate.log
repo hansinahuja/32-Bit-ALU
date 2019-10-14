@@ -8,7 +8,11 @@ Starting simulation data flow analysis
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.mux2
-Compiling module xil_defaultlib.rightShift
+Compiling module xil_defaultlib.leftShift
+Compiling module xil_defaultlib.GenProp
+Compiling module xil_defaultlib.fastAdder4
+Compiling module xil_defaultlib.fastAdder32_default
+Compiling module xil_defaultlib.multiplier32_default
 Compiling module xil_defaultlib.testbench
 Compiling module xil_defaultlib.glbl
 Built simulation snapshot testbench_behav
