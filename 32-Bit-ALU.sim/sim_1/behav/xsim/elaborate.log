@@ -1,18 +1,30 @@
 Vivado Simulator 2019.1
 Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
-Running: /home/neeraj/eda/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto c1973a3ab9f641a6860e2e6eb6eedaec --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Running: /home/hello/Downloads/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto c1973a3ab9f641a6860e2e6eb6eedaec --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
 Using 8 slave threads.
 Starting static elaboration
 Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.mux2
-Compiling module xil_defaultlib.leftShift
 Compiling module xil_defaultlib.GenProp
 Compiling module xil_defaultlib.fastAdder4
 Compiling module xil_defaultlib.fastAdder32_default
+Compiling module xil_defaultlib.bitwiseNOT
+Compiling module xil_defaultlib.twoscomplement
+Compiling module xil_defaultlib.bitwiseAND
+Compiling module xil_defaultlib.bitwiseOR
+Compiling module xil_defaultlib.subtractor32
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.leftShift
 Compiling module xil_defaultlib.multiplier32_default
+Compiling module xil_defaultlib.logicalLeftShift
+Compiling module xil_defaultlib.logicalRightShift
+Compiling module xil_defaultlib.arithmeticRightShift
+Compiling module xil_defaultlib.bitwiseXOR
+Compiling module xil_defaultlib.lessThan
+Compiling module xil_defaultlib.equalTo
+Compiling module xil_defaultlib.main
 Compiling module xil_defaultlib.testbench
 Compiling module xil_defaultlib.glbl
 Built simulation snapshot testbench_behav

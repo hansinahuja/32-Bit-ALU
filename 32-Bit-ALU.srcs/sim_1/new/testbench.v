@@ -24,27 +24,22 @@ module testbench(
 
     );
     reg [31:0] A,B;
-    reg Cin;
-//    wire [31:0]t;
+    reg [3:0] control;
     wire [31:0] S;
-    wire Cout;
-//    twoscomplement unit(A,S);
-//assign S=1'b1 & 8'b01100111;
-//    logicalRightShift unit(A,S);
-    multiplier32 unit(A, B, S,Cout );
-//    ariRightShift unit(A,1,S);
+    wire carry, overflow, lessthan, equalto, zero;
+    main unit(A, B, control, S, carry, overflow, lessthan, equalto, zero);
     initial begin
     
-    A = 2147483648;
+    A = 56;
     B=1;
-    Cin=0;
+    control = 1;
     #400
-    $display("A=%d B=%d  S=%d Cout= %b ",A,B,S,Cout);
-    A=2;
-    B=5;
-    Cin=0;
+    $display("A=%d B=%d control=%d S=%d carry=%b overflow=%b lessthan=%b equalto=%b zero=%b",A,B,control,S,carry, overflow, lessthan, equalto, zero);
+    A = 8;
+    B=9;
+    control = 1;
     #400
-    $display("A=%d B=%d  S=%d Cout =%b  ",A,B,S,Cout);
+    $display("A=%d B=%d control=%d S=%d carry=%b overflow=%b lessthan=%b equalto=%b zero=%b",A,B,control,S,carry, overflow, lessthan, equalto, zero);
     
     end
     
