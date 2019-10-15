@@ -24,5 +24,13 @@ module mux2(
  input [31:0] A0,A1,
  input sel
 );
-assign S = sel? A1 : A0;
+wire [31:0] selector;
+
+generate for(genvar i=0;i<32;i=i+1)
+begin
+    assign selector[i]=sel;
+end
+endgenerate
+//assign S = sel? A1 : A0;
+assign S=selector&A1 | (~selector)&A0;
 endmodule

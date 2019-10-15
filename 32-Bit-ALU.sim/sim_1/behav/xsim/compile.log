@@ -1,38 +1,14 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/GenProp.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/GenProp.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module GenProp
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/arithmeticRightShift.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module arithmeticRightShift
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/bitwiseAND.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module bitwiseAND
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/bitwiseNOT.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module bitwiseNOT
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/bitwiseOR.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module bitwiseOR
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/bitwiseXOR.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module bitwiseXOR
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/equalTo.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module equalTo
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder32.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder32.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module fastAdder32
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder4.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder4.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module fastAdder4
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/leftShift.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/leftShift.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module leftShift
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/lessThan.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module lessThan
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/logicalLeftShift.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module logicalLeftShift
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/logicalRightShift.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module logicalRightShift
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/main.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module main
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/multiplier32.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/multiplier32.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module multiplier32
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/mux2.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module mux2
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/subtractor32.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module subtractor32
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/twoscomplement.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module twoscomplement
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module testbench

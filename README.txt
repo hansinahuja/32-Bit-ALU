@@ -1,5 +1,7 @@
 ******** README ********
 
+NOTE:- We are only submitting the verilog .v source files i.e. the VIVADO Design sources.The complete vivado project is available at https://www.github.com/hansinahuja/32-Bit-ALU.git . It can be made public on demand.
+
 CS203: 			Digital Logic Design
 Instructor: 		Dr. Neeraj Goel
 Project: 		32 Bit ALU
@@ -42,8 +44,9 @@ and gives 6 outputs:
 	else:			carry = 0
 
 3) overflow:
-	if control = 1:		overflow = 1 if multiplication of A and B yields a result which cannot be stored in 32 bits. Else, overflow = 0.
+	if control = 1:		overflow = 1 if multiplication of A and B yields a result which cannot be stored in 32 bits or if the result of multiplication is a negative number (33rd Bit is considered as sign bit here). Else, overflow = 0.
 	else:			overflow = 0
+
 
 4) lessthan:
 	if control = 10:	lessthan = 1 if A < B. Else, lessthan = 0.
