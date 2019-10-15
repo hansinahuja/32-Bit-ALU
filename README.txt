@@ -17,6 +17,7 @@ Contributors:		Hansin Ahuja (2018csb1094)
 8) Bitwise OR:			control 7
 9) Bitwise NOT:			control 8
 10) Bitwise XOR:		control 9
+11) Comparison:			control 10
 
 *** How to run ***
 The module 'main.v' takes 3 inputs:
@@ -45,15 +46,15 @@ and gives 6 outputs:
 	else:			overflow = 0
 
 4) lessthan:
-	if control = 0, 1, 2, 6, 7 or 9:	lessthan = 1 if A < B. Else, lessthan = 0.
-	else:					lessthan = 0
+	if control = 10:	lessthan = 1 if A < B. Else, lessthan = 0.
+	else:			lessthan = 0
 
 5) equalto:
-	if control = 0, 1, 2, 6, 7 or 9:	lessthan = 1 if A = B. Else, lessthan = 0.
-	else:					lessthan = 0
+	if control = 10:	lessthan = 1 if A = B. Else, lessthan = 0.
+	else:			lessthan = 0
 
 6) zero:
-	= 1 if S = 0
-	= 0 if S != 0
+	= 1 if S = 0 and control != 10
+	= 0 if S != 0 or control = 10
 	 
 

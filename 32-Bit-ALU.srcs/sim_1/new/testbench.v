@@ -31,14 +31,14 @@ module testbench(
 //    subtractor32 U()
     initial begin
     
-    A = 56;
-    B=5;
-    control = 1;
+    A = 8;
+    B=9;
+    control = 10;
     #400
     $display("A=%d B=%d control=%d S=%d carry=%b overflow=%b lessthan=%b equalto=%b zero=%b",A,B,control,S,carry, overflow, lessthan, equalto, zero);
-    A = 8;
-    B=0;
-    control = 1;
+    A = 5;
+    B=5;
+    control = 10;
     #400
     $display("A=%d B=%d control=%d S=%d carry=%b overflow=%b lessthan=%b equalto=%b zero=%b",A,B,control,S,carry, overflow, lessthan, equalto, zero);
     

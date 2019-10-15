@@ -58,6 +58,9 @@ module main(
    
     //BItwiseXOR
     assign operation[9]=(control[0])&(!control[1])&(!control[2])&(control[3]);
+    
+    //Comparison
+    assign operation[10] = (!control[0])&(control[1])&(!control[2])&(control[3]);
 
     wire [31:0] Stest[9:0];
     wire CARRY0,CARRY1,OVERFLOW, LESSTHAN, EQUALTO;    
@@ -86,14 +89,15 @@ module main(
         assign Os[7][i]=operation[7];
         assign Os[8][i]=operation[8];
         assign Os[9][i]=operation[9];
+
     end
     endgenerate
     
     assign S = (Stest[0]&Os[0]) | (Stest[1]&Os[1]) | (Stest[2]&Os[2]) |(Stest[3]&Os[3]) | (Stest[4]&Os[4]) | (Stest[5]&Os[5]) | (Stest[6]&Os[6]) | (Stest[7]&Os[7]) | (Stest[8]&Os[8]) | (Stest[9]&Os[9]);
     assign carry = 1'b0 | (operation[0]&CARRY0) | (operation[2]&CARRY1);
     assign overflow = 1'b0 | (operation[1]&OVERFLOW);
-    assign lessthan = (operation[0] | operation[1] | operation[2] | operation[6] | operation[7] | operation[9]) & LESSTHAN;
-    assign equalto = (operation[0] | operation[1] | operation[2] | operation[6] | operation[7] | operation[9]) & EQUALTO;
-    assign zero = ~(S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] | S[8] | S[9] | S[10] | S[11] | S[12] | S[13] | S[14] | S[15] | S[16] | S[17] | S[18] | S[19] | S[20] | S[21] | S[22] | S[23] | S[24] | S[25] | S[26] | S[27] | S[28] | S[29] | S[30] | S[31]);
+    assign lessthan = operation[10] & LESSTHAN;
+    assign equalto = operation[10] & EQUALTO;
+    assign zero = ~(S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] | S[8] | S[9] | S[10] | S[11] | S[12] | S[13] | S[14] | S[15] | S[16] | S[17] | S[18] | S[19] | S[20] | S[21] | S[22] | S[23] | S[24] | S[25] | S[26] | S[27] | S[28] | S[29] | S[30] | S[31] | operation[10]);
     
 endmodule

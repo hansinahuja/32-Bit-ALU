@@ -1,4 +1,4 @@
 Vivado Simulator 2019.1
 Time resolution is 1 ps
-A=        56 B=         5 control= 1 S=       280 carry=0 overflow=0 lessthan=0 equalto=0 zero=0
-A=         8 B=         0 control= 1 S=         0 carry=0 overflow=0 lessthan=0 equalto=0 zero=1
+A=         8 B=         9 control=10 S=         0 carry=0 overflow=0 lessthan=1 equalto=0 zero=0
+A=         5 B=         5 control=10 S=         0 carry=0 overflow=0 lessthan=0 equalto=1 zero=0

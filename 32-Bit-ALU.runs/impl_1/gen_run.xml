@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1571079136">
+  <File Type="PA-TCL" Name="lessThan.tcl"/>
+  <File Type="ROUTE-TIMING-PB" Name="lessThan_timing_summary_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="lessThan.msk"/>
+  <File Type="PA-DCP" Name="lessThan.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="lessThan_postroute_physopt.dcp"/>
+  <File Type="PLACE-DCP" Name="lessThan_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="lessThan_pwropt.dcp"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="lessThan_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="lessThan_postplace_pwropt.dcp"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="lessThan_postroute_physopt_bb.dcp"/>
+  <File Type="RDI-RDI" Name="lessThan.vdi"/>
+  <File Type="OPT-HWDEF" Name="lessThan.hwdef"/>
   <File Type="BITSTR-LTX" Name="lessThan.ltx"/>
   <File Type="BITSTR-SYSDEF" Name="lessThan.sysdef"/>
   <File Type="BG-BGN" Name="lessThan.bgn"/>
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="RDI-RDI" Name="lessThan.vdi"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="lessThan_postplace_pwropt.dcp"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="lessThan_incremental_reuse_pre_placed.rpt"/>
-  <File Type="PWROPT-DCP" Name="lessThan_pwropt.dcp"/>
-  <File Type="OPT-HWDEF" Name="lessThan.hwdef"/>
-  <File Type="BITSTR-MSK" Name="lessThan.msk"/>
-  <File Type="ROUTE-TIMING-PB" Name="lessThan_timing_summary_routed.pb"/>
-  <File Type="PLACE-DCP" Name="lessThan_placed.dcp"/>
-  <File Type="PA-DCP" Name="lessThan.dcp"/>
-  <File Type="PA-TCL" Name="lessThan.tcl"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="lessThan_routed_bb.dcp"/>
   <File Type="BITSTR-RBT" Name="lessThan.rbt"/>
   <File Type="REPORTS-TCL" Name="lessThan_reports.tcl"/>
   <File Type="OPT-DCP" Name="lessThan_opt.dcp"/>
@@ -23,7 +24,6 @@
   <File Type="ROUTE-ERROR-DCP" Name="lessThan_routed_error.dcp"/>
   <File Type="BG-DRC" Name="lessThan.drc"/>
   <File Type="ROUTE-DCP" Name="lessThan_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="lessThan_routed_bb.dcp"/>
   <File Type="BG-BIT" Name="lessThan.bit"/>
   <File Type="BG-BIN" Name="lessThan.bin"/>
   <File Type="BITSTR-NKY" Name="lessThan.nky"/>
