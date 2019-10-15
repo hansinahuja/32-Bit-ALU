@@ -28,15 +28,16 @@ module testbench(
     wire [31:0] S;
     wire carry, overflow, lessthan, equalto, zero;
     main unit(A, B, control, S, carry, overflow, lessthan, equalto, zero);
+//    subtractor32 U()
     initial begin
     
     A = 56;
-    B=1;
+    B=5;
     control = 1;
     #400
     $display("A=%d B=%d control=%d S=%d carry=%b overflow=%b lessthan=%b equalto=%b zero=%b",A,B,control,S,carry, overflow, lessthan, equalto, zero);
     A = 8;
-    B=9;
+    B=0;
     control = 1;
     #400
     $display("A=%d B=%d control=%d S=%d carry=%b overflow=%b lessthan=%b equalto=%b zero=%b",A,B,control,S,carry, overflow, lessthan, equalto, zero);

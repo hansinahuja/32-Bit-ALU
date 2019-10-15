@@ -26,7 +26,6 @@ module twoscomplement(
     );
     wire [31:0] Acomp;
     bitwiseNOT U1(A, Acomp);
-//    assign #3 Acomp=~A;
     wire [31:0]addum;
     assign addum=32'b1;
     wire cout;

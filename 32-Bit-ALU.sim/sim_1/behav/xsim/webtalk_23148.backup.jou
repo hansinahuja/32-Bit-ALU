@@ -2,8 +2,8 @@
 # Webtalk v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Mon Oct 14 22:25:18 2019
-# Process ID: 21932
+# Start of session at: Mon Oct 14 22:28:28 2019
+# Process ID: 23148
 # Current directory: /home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim
 # Command line: wbtcv -mode batch -source /home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim/xsim.dir/testbench_behav/webtalk/xsim_webtalk.tcl -notrace
 # Log file: /home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim/webtalk.log

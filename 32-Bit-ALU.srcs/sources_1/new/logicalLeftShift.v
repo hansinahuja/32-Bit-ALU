@@ -22,7 +22,6 @@
 
 module logicalLeftShift(
     input [31:0]A,
-//    input [4:0] n,
     output [31:0]B
     );
     assign B[0]=0;

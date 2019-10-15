@@ -3,7 +3,7 @@
 May 24 2019
 14:51:52
 /home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim/glbl.v,1571154968,verilog,,,,glbl,,,,,,,,
-/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v,1571158438,verilog,,,,testbench,,,,,,,,
+/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v,1571159317,verilog,,,,testbench,,,,,,,,
 /home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/GenProp.v,1571154968,verilog,,/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/arithmeticRightShift.v,,GenProp,,,,,,,,
 /home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/arithmeticRightShift.v,1571154968,verilog,,/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/bitwiseAND.v,,arithmeticRightShift,,,,,,,,
 /home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/bitwiseAND.v,1571154968,verilog,,/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/bitwiseNOT.v,,bitwiseAND,,,,,,,,
@@ -17,7 +17,7 @@ May 24 2019
 /home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/lessThan.v,1571154968,verilog,,/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/logicalLeftShift.v,,lessThan,,,,,,,,
 /home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/logicalLeftShift.v,1571154968,verilog,,/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/logicalRightShift.v,,logicalLeftShift,,,,,,,,
 /home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/logicalRightShift.v,1571154968,verilog,,/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/main.v,,logicalRightShift,,,,,,,,
-/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/main.v,1571158234,verilog,,/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/multiplier32.v,,main,,,,,,,,
+/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/main.v,1571158983,verilog,,/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/multiplier32.v,,main,,,,,,,,
 /home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/multiplier32.v,1571154968,verilog,,/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/mux2.v,,multiplier32,,,,,,,,
 /home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/mux2.v,1571154968,verilog,,/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/subtractor32.v,,mux2,,,,,,,,
 /home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/subtractor32.v,1571154968,verilog,,/home/hello/Desktop/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/twoscomplement.v,,subtractor32,,,,,,,,

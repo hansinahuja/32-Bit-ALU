@@ -43,8 +43,6 @@ generate
         fastAdder32 add1(1'b0,(A[i] ? partialstemp[width*(i+1)-1 : width*i] : 0),partials[width*i-1 : width*(i-1)],partials[width*(i+1)-1 : width*i],Cout[i]);
         assign t[i]=B[width-i] + t[i-1];
         assign p = Cout[i]+ A[i]&t[i];
-        
-//        assign partials[width*(i+1)-1 : width*i] =  + ;
 end 
 endgenerate
 assign O=p;

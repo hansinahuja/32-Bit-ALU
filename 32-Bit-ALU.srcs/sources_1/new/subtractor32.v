@@ -22,14 +22,12 @@
 
 module subtractor32(
        input [31:0]A,B,
-//       input Cin,
        output [31:0]S,
        output Cout
        
     );
         wire [31:0] Bcomp;
         bitwiseNOT D1(B, Bcomp);
-//        assign #3 Bcomp=~B;
         wire [31:0]Sin,Scomp;
         fastAdder32 unit(1'b1,A,Bcomp,Sin,Cout);
         twoscomplement U(Sin,Scomp);
@@ -45,11 +43,5 @@ module subtractor32(
         bitwiseAND U2(o1, Scomp, o2);
         bitwiseAND U3(Ctest, Sin, o3);
         bitwiseOR U4(o2, o3, S);
-        
-//        assign #6 S= (~Ctest)&Scomp | (Ctest)&Sin;
-//        initial begin
-//        #500
-//        $display("A= %b  B=%b S=%b",(~Ctest&Scomp),(Ctest)&Sin, S );
-//        end
-         
+       
 endmodule
