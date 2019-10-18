@@ -1,0 +1,853 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Oct 19 00:50:17 2019
+# Process ID: 16811
+# Current directory: /home/hello/32-Bit-ALU
+# Command line: vivado
+# Log file: /home/hello/32-Bit-ALU/vivado.log
+# Journal file: /home/hello/32-Bit-ALU/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/hello/32-Bit-ALU/32-Bit-ALU.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/neeraj/eda/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj testbench_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/GenProp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GenProp
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fastAdder32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fastAdder4
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/leftShift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module leftShift
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/multiplier32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+xelab -wto c1973a3ab9f641a6860e2e6eb6eedaec --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /home/neeraj/eda/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto c1973a3ab9f641a6860e2e6eb6eedaec --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.leftShift
+Compiling module xil_defaultlib.GenProp
+Compiling module xil_defaultlib.fastAdder4
+Compiling module xil_defaultlib.fastAdder32_default
+Compiling module xil_defaultlib.multiplier32_default
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+
+****** Webtalk v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source /home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim/xsim.dir/testbench_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim/xsim.dir/testbench_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sat Oct 19 00:53:49 2019. For additional details about this file, please refer to the WebTalk help file at /home/neeraj/eda/Vivado/2019.1/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00.69 ; elapsed = 00:00:05 . Memory (MB): peak = 391.164 ; gain = 0.000 ; free physical = 3071 ; free virtual = 14227
+INFO: [Common 17-206] Exiting Webtalk at Sat Oct 19 00:53:49 2019...
+run_program: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 6490.633 ; gain = 0.000 ; free physical = 3152 ; free virtual = 14308
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+A=4294967292 B=         4 control= 1 S=4294967280 carry=z overflow=x lessthan=z equalto=z zero=z
+A=         5 B=         5 control= 1 S=        25 carry=z overflow=0 lessthan=z equalto=z zero=z
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 6632.758 ; gain = 142.125 ; free physical = 3098 ; free virtual = 14254
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 6632.758 ; gain = 0.000 ; free physical = 3126 ; free virtual = 14282
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj testbench_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/GenProp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GenProp
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fastAdder32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fastAdder4
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/leftShift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module leftShift
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/multiplier32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+xelab -wto c1973a3ab9f641a6860e2e6eb6eedaec --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /home/neeraj/eda/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto c1973a3ab9f641a6860e2e6eb6eedaec --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.leftShift
+Compiling module xil_defaultlib.GenProp
+Compiling module xil_defaultlib.fastAdder4
+Compiling module xil_defaultlib.fastAdder32_default
+Compiling module xil_defaultlib.multiplier32_default
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+A=4294967292 B=         4 control= 1 S=4294967280 carry=z overflow=x lessthan=z equalto=z zero=z
+A=         5 B=         5 control= 1 S=        25 carry=z overflow=0 lessthan=z equalto=z zero=z
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 6656.016 ; gain = 23.258 ; free physical = 3092 ; free virtual = 14249
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj testbench_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/GenProp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GenProp
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fastAdder32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fastAdder4
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/leftShift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module leftShift
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/multiplier32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier32
+ERROR: [VRFC 10-3161] cannot assign to memory 'p' directly [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/multiplier32.v:40]
+ERROR: [VRFC 10-395] cannot assign a packed type to an unpacked type [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/multiplier32.v:40]
+ERROR: [VRFC 10-2865] module 'multiplier32' ignored due to previous errors [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/multiplier32.v:23]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj testbench_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/GenProp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GenProp
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fastAdder32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fastAdder4
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/leftShift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module leftShift
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/multiplier32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+xelab -wto c1973a3ab9f641a6860e2e6eb6eedaec --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /home/neeraj/eda/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto c1973a3ab9f641a6860e2e6eb6eedaec --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.leftShift
+Compiling module xil_defaultlib.GenProp
+Compiling module xil_defaultlib.fastAdder4
+Compiling module xil_defaultlib.fastAdder32_default
+Compiling module xil_defaultlib.multiplier32_default
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+A=4294967292 B=         4 control= 1 S=4294967280 carry=z overflow=0 lessthan=z equalto=z zero=z
+A=         5 B=         5 control= 1 S=        25 carry=z overflow=0 lessthan=z equalto=z zero=z
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 6697.035 ; gain = 41.020 ; free physical = 3076 ; free virtual = 14234
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj testbench_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/GenProp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GenProp
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fastAdder32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fastAdder4
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/leftShift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module leftShift
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/multiplier32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+xelab -wto c1973a3ab9f641a6860e2e6eb6eedaec --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /home/neeraj/eda/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto c1973a3ab9f641a6860e2e6eb6eedaec --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.leftShift
+Compiling module xil_defaultlib.GenProp
+Compiling module xil_defaultlib.fastAdder4
+Compiling module xil_defaultlib.fastAdder32_default
+Compiling module xil_defaultlib.multiplier32_default
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+A=     65536 B=     65536 control= 1 S=         0 carry=z overflow=1 lessthan=z equalto=z zero=z
+A=         5 B=         5 control= 1 S=        25 carry=z overflow=0 lessthan=z equalto=z zero=z
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 6700.035 ; gain = 3.000 ; free physical = 3083 ; free virtual = 14242
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj testbench_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/GenProp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GenProp
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fastAdder32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fastAdder4
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/leftShift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module leftShift
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/multiplier32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+xelab -wto c1973a3ab9f641a6860e2e6eb6eedaec --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /home/neeraj/eda/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto c1973a3ab9f641a6860e2e6eb6eedaec --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.leftShift
+Compiling module xil_defaultlib.GenProp
+Compiling module xil_defaultlib.fastAdder4
+Compiling module xil_defaultlib.fastAdder32_default
+Compiling module xil_defaultlib.multiplier32_default
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+A=     65536 B=    131073 control= 1 S=     65536 carry=z overflow=1 lessthan=z equalto=z zero=z
+A=         5 B=         5 control= 1 S=        25 carry=z overflow=0 lessthan=z equalto=z zero=z
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 6703.035 ; gain = 3.000 ; free physical = 3081 ; free virtual = 14240
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj testbench_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/GenProp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GenProp
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fastAdder32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fastAdder4
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/leftShift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module leftShift
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/multiplier32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+xelab -wto c1973a3ab9f641a6860e2e6eb6eedaec --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /home/neeraj/eda/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto c1973a3ab9f641a6860e2e6eb6eedaec --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.leftShift
+Compiling module xil_defaultlib.GenProp
+Compiling module xil_defaultlib.fastAdder4
+Compiling module xil_defaultlib.fastAdder32_default
+Compiling module xil_defaultlib.multiplier32_default
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+A=     65536 B=    131074 control= 1 S=    131072 carry=z overflow=1 lessthan=z equalto=z zero=z
+A=         5 B=         5 control= 1 S=        25 carry=z overflow=0 lessthan=z equalto=z zero=z
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 6711.039 ; gain = 8.004 ; free physical = 3077 ; free virtual = 14237
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj testbench_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/GenProp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GenProp
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fastAdder32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fastAdder4
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/leftShift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module leftShift
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/multiplier32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+xelab -wto c1973a3ab9f641a6860e2e6eb6eedaec --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /home/neeraj/eda/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto c1973a3ab9f641a6860e2e6eb6eedaec --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.leftShift
+Compiling module xil_defaultlib.GenProp
+Compiling module xil_defaultlib.fastAdder4
+Compiling module xil_defaultlib.fastAdder32_default
+Compiling module xil_defaultlib.multiplier32_default
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+A=4294967292 B=         4 control= 1 S=4294967280 carry=z overflow=0 lessthan=z equalto=z zero=z
+A=         5 B=         5 control= 1 S=        25 carry=z overflow=0 lessthan=z equalto=z zero=z
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 6719.043 ; gain = 8.004 ; free physical = 3065 ; free virtual = 14225
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj testbench_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/GenProp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GenProp
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fastAdder32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fastAdder4
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/leftShift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module leftShift
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/multiplier32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+WARNING: [VRFC 10-2581] 4294967292 as 32-bit signed integer overflows, using -4 instead [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v:35]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+xelab -wto c1973a3ab9f641a6860e2e6eb6eedaec --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /home/neeraj/eda/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto c1973a3ab9f641a6860e2e6eb6eedaec --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.leftShift
+Compiling module xil_defaultlib.GenProp
+Compiling module xil_defaultlib.fastAdder4
+Compiling module xil_defaultlib.fastAdder32_default
+Compiling module xil_defaultlib.multiplier32_default
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+A=4294967292 B=         4 control= 1 S=4294967280 carry=z overflow=0 lessthan=z equalto=z zero=z
+A=         5 B=         5 control= 1 S=        25 carry=z overflow=0 lessthan=z equalto=z zero=z
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 6729.047 ; gain = 10.004 ; free physical = 3068 ; free virtual = 14229
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj testbench_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/GenProp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GenProp
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fastAdder32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fastAdder4
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/leftShift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module leftShift
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/multiplier32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+WARNING: [VRFC 10-2581] 4294967292 as 32-bit signed integer overflows, using -4 instead [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sim_1/new/testbench.v:35]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+xelab -wto c1973a3ab9f641a6860e2e6eb6eedaec --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /home/neeraj/eda/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto c1973a3ab9f641a6860e2e6eb6eedaec --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.leftShift
+Compiling module xil_defaultlib.GenProp
+Compiling module xil_defaultlib.fastAdder4
+Compiling module xil_defaultlib.fastAdder32_default
+Compiling module xil_defaultlib.multiplier32_default
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/hello/32-Bit-ALU/32-Bit-ALU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+A=4294967292 B=         4 control= 1 S=4294967280 carry=z overflow=1 lessthan=z equalto=z zero=z
+A=         5 B=         5 control= 1 S=        25 carry=z overflow=0 lessthan=z equalto=z zero=z
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 6750.059 ; gain = 21.012 ; free physical = 3071 ; free virtual = 14232
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sat Oct 19 01:11:23 2019] Launched synth_1...
+Run output will be captured here: /home/hello/32-Bit-ALU/32-Bit-ALU.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Sat Oct 19 01:12:04 2019] Launched impl_1...
+Run output will be captured here: /home/hello/32-Bit-ALU/32-Bit-ALU.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+WARNING: [Netlist 29-101] Netlist 'main' is not ideal for floorplanning, since the cellview 'main' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.16 ; elapsed = 00:00:00.16 . Memory (MB): peak = 6933.910 ; gain = 5.000 ; free physical = 2721 ; free virtual = 13921
+Restored from archive | CPU: 0.160000 secs | Memory: 5.072243 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.16 ; elapsed = 00:00:00.16 . Memory (MB): peak = 6933.910 ; gain = 5.000 ; free physical = 2721 ; free virtual = 13921
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 6933.910 ; gain = 0.000 ; free physical = 2722 ; free virtual = 13922
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 7120.520 ; gain = 370.461 ; free physical = 2615 ; free virtual = 13815
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7k70tfbv676-1
+WARNING: [Netlist 29-101] Netlist 'main' is not ideal for floorplanning, since the cellview 'main' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 7607.281 ; gain = 0.000 ; free physical = 2100 ; free virtual = 13302
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+close_design
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7k70tfbv676-1
+Top: main
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 7631.293 ; gain = 0.000 ; free physical = 2082 ; free virtual = 13284
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'main' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/main.v:23]
+INFO: [Synth 8-6157] synthesizing module 'fastAdder32' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'fastAdder4' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder4.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'fastAdder4' (1#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder4.v:23]
+INFO: [Synth 8-6157] synthesizing module 'GenProp' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/GenProp.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'GenProp' (2#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/GenProp.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'fastAdder32' (3#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'multiplier32' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/multiplier32.v:23]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'leftShift' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/leftShift.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mux2' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/mux2.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'mux2' (4#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/mux2.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'leftShift' (5#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/leftShift.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'multiplier32' (6#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/multiplier32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'subtractor32' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/subtractor32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'bitwiseNOT' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/bitwiseNOT.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bitwiseNOT' (7#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/bitwiseNOT.v:23]
+INFO: [Synth 8-6157] synthesizing module 'twoscomplement' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/twoscomplement.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'twoscomplement' (8#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/twoscomplement.v:23]
+INFO: [Synth 8-6157] synthesizing module 'bitwiseAND' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/bitwiseAND.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bitwiseAND' (9#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/bitwiseAND.v:23]
+INFO: [Synth 8-6157] synthesizing module 'bitwiseOR' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/bitwiseOR.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bitwiseOR' (10#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/bitwiseOR.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'subtractor32' (11#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/subtractor32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'logicalLeftShift' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/logicalLeftShift.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'logicalLeftShift' (12#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/logicalLeftShift.v:23]
+INFO: [Synth 8-6157] synthesizing module 'logicalRightShift' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/logicalRightShift.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'logicalRightShift' (13#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/logicalRightShift.v:23]
+INFO: [Synth 8-6157] synthesizing module 'arithmeticRightShift' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/arithmeticRightShift.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'arithmeticRightShift' (14#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/arithmeticRightShift.v:23]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/main.v:76]
+INFO: [Synth 8-6157] synthesizing module 'bitwiseXOR' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/bitwiseXOR.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bitwiseXOR' (15#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/bitwiseXOR.v:23]
+WARNING: [Synth 8-7023] instance 'U10' of module 'bitwiseXOR' has 3 connections declared, but only 2 given [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/main.v:76]
+INFO: [Synth 8-6157] synthesizing module 'lessThan' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/lessThan.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'lessThan' (16#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/lessThan.v:23]
+INFO: [Synth 8-6157] synthesizing module 'equalTo' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/equalTo.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'equalTo' (17#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/equalTo.v:23]
+WARNING: [Synth 8-3848] Net Stest[9] in module/entity main does not have driver. [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/main.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'main' (18#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/main.v:23]
+WARNING: [Synth 8-3331] design fastAdder4 has unconnected port G[3]
+WARNING: [Synth 8-3331] design arithmeticRightShift has unconnected port A[0]
+WARNING: [Synth 8-3331] design logicalRightShift has unconnected port A[0]
+WARNING: [Synth 8-3331] design logicalLeftShift has unconnected port A[31]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[31]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[30]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[29]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[28]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[27]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[26]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[25]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[24]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[23]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[22]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[21]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[20]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[19]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[18]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[17]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[16]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[15]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[14]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[13]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[12]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[11]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[10]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[9]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[8]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[7]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[6]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[5]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 7633.293 ; gain = 2.000 ; free physical = 2104 ; free virtual = 13306
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 7651.105 ; gain = 19.812 ; free physical = 2101 ; free virtual = 13303
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 7651.105 ; gain = 19.812 ; free physical = 2101 ; free virtual = 13303
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 7807.875 ; gain = 0.000 ; free physical = 2016 ; free virtual = 13219
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 7863.902 ; gain = 232.609 ; free physical = 1908 ; free virtual = 13111
+39 Infos, 34 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 7863.902 ; gain = 232.609 ; free physical = 1908 ; free virtual = 13111
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Oct 19 01:16:52 2019...

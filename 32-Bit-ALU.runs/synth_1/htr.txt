@@ -6,4 +6,4 @@
 # Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 #
 
-vivado -log lessThan.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source lessThan.tcl
+vivado -log main.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source main.tcl

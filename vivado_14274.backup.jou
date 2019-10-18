@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Oct 19 00:40:36 2019
+# Process ID: 14274
+# Current directory: /home/hello/32-Bit-ALU
+# Command line: vivado
+# Log file: /home/hello/32-Bit-ALU/vivado.log
+# Journal file: /home/hello/32-Bit-ALU/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/hello/32-Bit-ALU/32-Bit-ALU.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1

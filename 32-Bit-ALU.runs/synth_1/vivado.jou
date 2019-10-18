@@ -2,11 +2,11 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Tue Oct 15 00:19:15 2019
-# Process ID: 2636
+# Start of session at: Sat Oct 19 01:11:25 2019
+# Process ID: 20404
 # Current directory: /home/hello/32-Bit-ALU/32-Bit-ALU.runs/synth_1
-# Command line: vivado -log lessThan.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lessThan.tcl
-# Log file: /home/hello/32-Bit-ALU/32-Bit-ALU.runs/synth_1/lessThan.vds
+# Command line: vivado -log main.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source main.tcl
+# Log file: /home/hello/32-Bit-ALU/32-Bit-ALU.runs/synth_1/main.vds
 # Journal file: /home/hello/32-Bit-ALU/32-Bit-ALU.runs/synth_1/vivado.jou
 #-----------------------------------------------------------
-source lessThan.tcl -notrace
+source main.tcl -notrace

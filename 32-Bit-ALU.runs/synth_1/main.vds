@@ -1,0 +1,347 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Oct 19 01:11:25 2019
+# Process ID: 20404
+# Current directory: /home/hello/32-Bit-ALU/32-Bit-ALU.runs/synth_1
+# Command line: vivado -log main.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source main.tcl
+# Log file: /home/hello/32-Bit-ALU/32-Bit-ALU.runs/synth_1/main.vds
+# Journal file: /home/hello/32-Bit-ALU/32-Bit-ALU.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source main.tcl -notrace
+Command: synth_design -top main -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 20418 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1488.539 ; gain = 102.562 ; free physical = 2694 ; free virtual = 13855
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'main' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/main.v:23]
+INFO: [Synth 8-6157] synthesizing module 'fastAdder32' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'fastAdder4' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder4.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'fastAdder4' (1#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder4.v:23]
+INFO: [Synth 8-6157] synthesizing module 'GenProp' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/GenProp.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'GenProp' (2#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/GenProp.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'fastAdder32' (3#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/fastAdder32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'multiplier32' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/multiplier32.v:23]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'leftShift' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/leftShift.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mux2' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/mux2.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'mux2' (4#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/mux2.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'leftShift' (5#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/leftShift.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'multiplier32' (6#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/multiplier32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'subtractor32' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/subtractor32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'bitwiseNOT' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/bitwiseNOT.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bitwiseNOT' (7#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/bitwiseNOT.v:23]
+INFO: [Synth 8-6157] synthesizing module 'twoscomplement' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/twoscomplement.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'twoscomplement' (8#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/twoscomplement.v:23]
+INFO: [Synth 8-6157] synthesizing module 'bitwiseAND' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/bitwiseAND.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bitwiseAND' (9#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/bitwiseAND.v:23]
+INFO: [Synth 8-6157] synthesizing module 'bitwiseOR' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/bitwiseOR.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bitwiseOR' (10#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/bitwiseOR.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'subtractor32' (11#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/subtractor32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'logicalLeftShift' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/logicalLeftShift.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'logicalLeftShift' (12#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/logicalLeftShift.v:23]
+INFO: [Synth 8-6157] synthesizing module 'logicalRightShift' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/logicalRightShift.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'logicalRightShift' (13#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/logicalRightShift.v:23]
+INFO: [Synth 8-6157] synthesizing module 'arithmeticRightShift' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/arithmeticRightShift.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'arithmeticRightShift' (14#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/arithmeticRightShift.v:23]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/main.v:76]
+INFO: [Synth 8-6157] synthesizing module 'bitwiseXOR' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/bitwiseXOR.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bitwiseXOR' (15#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/bitwiseXOR.v:23]
+WARNING: [Synth 8-7023] instance 'U10' of module 'bitwiseXOR' has 3 connections declared, but only 2 given [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/main.v:76]
+INFO: [Synth 8-6157] synthesizing module 'lessThan' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/lessThan.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'lessThan' (16#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/lessThan.v:23]
+INFO: [Synth 8-6157] synthesizing module 'equalTo' [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/equalTo.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'equalTo' (17#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/equalTo.v:23]
+WARNING: [Synth 8-3848] Net Stest[9] in module/entity main does not have driver. [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/main.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'main' (18#1) [/home/hello/32-Bit-ALU/32-Bit-ALU.srcs/sources_1/new/main.v:23]
+WARNING: [Synth 8-3331] design fastAdder4 has unconnected port G[3]
+WARNING: [Synth 8-3331] design arithmeticRightShift has unconnected port A[0]
+WARNING: [Synth 8-3331] design logicalRightShift has unconnected port A[0]
+WARNING: [Synth 8-3331] design logicalLeftShift has unconnected port A[31]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[31]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[30]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[29]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[28]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[27]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[26]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[25]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[24]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[23]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[22]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[21]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[20]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[19]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[18]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[17]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[16]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[15]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[14]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[13]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[12]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[11]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[10]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[9]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[8]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[7]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[6]
+WARNING: [Synth 8-3331] design leftShift has unconnected port B[5]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1543.289 ; gain = 157.312 ; free physical = 2714 ; free virtual = 13875
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1546.258 ; gain = 160.281 ; free physical = 2715 ; free virtual = 13876
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1554.262 ; gain = 168.285 ; free physical = 2712 ; free virtual = 13873
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1574.145 ; gain = 188.168 ; free physical = 2632 ; free virtual = 13795
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   5 Input      1 Bit       Adders := 41    
+	   4 Input      1 Bit       Adders := 269   
+	   6 Input      1 Bit       Adders := 41    
+	   7 Input      1 Bit       Adders := 41    
+	   8 Input      1 Bit       Adders := 41    
+	   9 Input      1 Bit       Adders := 41    
+	  10 Input      1 Bit       Adders := 40    
+	  11 Input      1 Bit       Adders := 40    
+	  12 Input      1 Bit       Adders := 40    
+	   2 Input      1 Bit       Adders := 34    
+	   3 Input      1 Bit       Adders := 3     
++---XORs : 
+	   2 Input      1 Bit         XORs := 2464  
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 32    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module GenProp 
+Detailed RTL Component Info : 
++---Adders : 
+	   5 Input      1 Bit       Adders := 1     
+	   4 Input      1 Bit       Adders := 7     
+	   6 Input      1 Bit       Adders := 1     
+	   7 Input      1 Bit       Adders := 1     
+	   8 Input      1 Bit       Adders := 1     
+	   9 Input      1 Bit       Adders := 1     
+	  10 Input      1 Bit       Adders := 1     
+	  11 Input      1 Bit       Adders := 1     
+	  12 Input      1 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 32    
+Module fastAdder4 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 4     
+Module multiplier32 
+Detailed RTL Component Info : 
++---Adders : 
+	  12 Input      1 Bit       Adders := 2     
+	   2 Input      1 Bit       Adders := 34    
+	   3 Input      1 Bit       Adders := 3     
+	   4 Input      1 Bit       Adders := 3     
+	   5 Input      1 Bit       Adders := 3     
+	   6 Input      1 Bit       Adders := 3     
+	   7 Input      1 Bit       Adders := 3     
+	   8 Input      1 Bit       Adders := 3     
+	   9 Input      1 Bit       Adders := 3     
+	  10 Input      1 Bit       Adders := 2     
+	  11 Input      1 Bit       Adders := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 32    
+Module bitwiseXOR 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 32    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1767.637 ; gain = 381.660 ; free physical = 2461 ; free virtual = 13628
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1767.637 ; gain = 381.660 ; free physical = 2460 ; free virtual = 13628
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1775.645 ; gain = 389.668 ; free physical = 2480 ; free virtual = 13648
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1787.520 ; gain = 401.543 ; free physical = 2480 ; free virtual = 13647
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1787.520 ; gain = 401.543 ; free physical = 2480 ; free virtual = 13647
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1787.520 ; gain = 401.543 ; free physical = 2480 ; free virtual = 13647
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1787.520 ; gain = 401.543 ; free physical = 2480 ; free virtual = 13647
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1787.520 ; gain = 401.543 ; free physical = 2480 ; free virtual = 13647
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1787.520 ; gain = 401.543 ; free physical = 2480 ; free virtual = 13647
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     1|
+|2     |LUT2 |   588|
+|3     |LUT3 |   180|
+|4     |LUT4 |   344|
+|5     |LUT5 |   316|
+|6     |LUT6 |  1500|
+|7     |IBUF |    68|
+|8     |OBUF |    37|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |  3034|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1787.520 ; gain = 401.543 ; free physical = 2480 ; free virtual = 13647
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 34 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1787.520 ; gain = 401.543 ; free physical = 2484 ; free virtual = 13651
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1787.527 ; gain = 401.543 ; free physical = 2484 ; free virtual = 13651
+INFO: [Project 1-571] Translating synthesized netlist
+WARNING: [Netlist 29-101] Netlist 'main' is not ideal for floorplanning, since the cellview 'main' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1853.453 ; gain = 0.000 ; free physical = 2423 ; free virtual = 13591
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+43 Infos, 35 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1853.453 ; gain = 467.602 ; free physical = 2522 ; free virtual = 13689
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1853.453 ; gain = 0.000 ; free physical = 2522 ; free virtual = 13689
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/hello/32-Bit-ALU/32-Bit-ALU.runs/synth_1/main.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file main_utilization_synth.rpt -pb main_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Oct 19 01:11:54 2019...

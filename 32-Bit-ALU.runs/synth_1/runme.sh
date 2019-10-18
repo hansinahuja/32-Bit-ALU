@@ -36,4 +36,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log lessThan.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source lessThan.tcl
+EAStep vivado -log main.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source main.tcl
